@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "탭케피유 Tab KPU",
+    "description": "한국산업기술대학교 학생들에게 필요한 북마크사이트를 모아서 제공하기로 했습니다.",
+    "version": "1.0",
+    "browser_action": {
+        "default_popup" : "./popup/index.html",
+        "default_icon": {
+        "16": "icons/page-16.png",
+        "32": "icons/page-32.png",
+        "128" : "./icons/page-128.png"
+        }
+    }
+}
